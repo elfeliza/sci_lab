@@ -12,4 +12,5 @@ b = file[-1, :]
 x = solve(matr, b)
 
 plt.bar(range(x.shape[0]), x)
+plt.savefig('p.png')
 plt.show()
